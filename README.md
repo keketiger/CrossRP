@@ -16,7 +16,7 @@ Crossrp and a server garry's mod darkrp. Here are the available sources of scrip
 **Using Git**
 ```
 cd addons
-git clone https://github.com/keketiger/CrossRP
+git clone https://github.com/keketiger/CrossRP.git
 ```
 
 **Manually**
