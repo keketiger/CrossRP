@@ -13,41 +13,32 @@ Tiger.TextButtonColor = color_white
 -- Button Off
 Tiger.TextButtonColorOnDisable = Color(255, 255, 255, 150)
 
--- Server Name
 Tiger.ServerName = "CrossRP - V2"
 
 -- Admin
 Tiger.StaffGroups = {
-    [ 'superadmin' ] = true,
-    [ 'admin' ] = true,
-    [ 'moderateur' ] = true,
-	[ 'developer' ] = true
+    ['superadmin'] = true,
+    ['admin'] = true,
+    ['moderateur'] = true,
+    ['developer'] = true
 }
 
---[[-------------------------------------------------------------------------
-Context Menu
----------------------------------------------------------------------------]]
-
+-- Context Menu
 Tiger.ContextMenu_Name = "- Menu Personnel -"
-Tiger.AdminButtonColor = Color( 122, 0, 0, 255 )
-Tiger.VIPButtonColor = Color( 228, 201, 67, 255 )
+Tiger.AdminButtonColor = Color(122, 0, 0, 255)
+Tiger.VIPButtonColor = Color(228, 201, 67, 255)
 
---[[-------------------------------------------------------------------------
-Scoreboard
----------------------------------------------------------------------------]]
-
+-- Scoreboard
 Tiger.Scoreboard_Groups = {
-	[ 'superadmin' ] = {name = 'Super Admin', color = Color( 199, 44, 44 )},
-    [ 'developer' ] = {name = 'Developer', color = Color( 199, 44, 44 )},
-    [ 'admin' ] = {name = 'Administrateur', color = Color( 241, 196, 15 )},
-    [ 'moderateur' ] = {name = 'Modérateur', color = Color( 52, 152, 219 )},
-    [ 'donator' ] = {name = 'Donateur', color = Color( 155, 89, 182 )},
-    [ 'vip' ] = {name = 'VIP', color = Color( 155, 89, 182 )}
+    ['superadmin'] = {name = 'Super Admin', color = Color(199, 44, 44)},
+    ['developer'] = {name = 'Développeur', color = Color(199, 44, 44)},
+    ['admin'] = {name = 'Administrateur', color = Color(241, 196, 15)},
+    ['moderateur'] = {name = 'Modérateur', color = Color(52, 152, 219)},
+    ['donator'] = {name = 'Donateur', color = Color(155, 89, 182)},
+    ['vip'] = {name = 'VIP', color = Color(155, 89, 182)}
 }
 
---[[-------------------------------------------------------------------------
-Panneau publicitaire
----------------------------------------------------------------------------]]
+-- Panneau publicitaire
 Tiger.SetDisableButton = {}
 Tiger.MainTextButton = {}
 Tiger.MainTextWritingBoard = {}
@@ -84,10 +75,7 @@ Tiger.SuccesNotifyPurchase = "Vous avez achete une annonce pour"
 Tiger.FailNotifyPurchase = "Vous devez ecrire un texte pour votre annonce"
 Tiger.Anonymous = "Anonyme"
 
-
---[[-------------------------------------------------------------------------
-Job NPC
----------------------------------------------------------------------------]]
+-- Job NPC
 Tiger.JNPC = {}
 Tiger.JNPC.CreateNPC = {}
 
